@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import CardInfo from './components/CardInfo';
 import GetApiInfo from './helpers/GetApiInfo';
 import SearchBar from './components/SearchBar';
-
+import './components/All.css'
 
 
 const App = () => {
@@ -47,6 +47,13 @@ const App = () => {
     <>
       <SearchBar handleSubmit = {handleSubmit} />
       <CardInfo data={data}/>
+      <section id='infoForUsers'>
+        <div className='textInfo'>
+          <span>Usa el buscador para encontrar la ciudad que quieras.</span>
+          <span>Recomiendo al buscar la ciudad introduzcas el pais de esta manera: "Roma,IT".</span>
+          <span>Luego de la coma, tendrás que poner las 2 primeras letras del pais al que te referís.</span>
+        </div>
+      </section>
     </>
   )
 }
