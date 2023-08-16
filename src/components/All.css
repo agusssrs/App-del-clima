@@ -175,6 +175,10 @@
         font-size: 17px;
     }
 
+    .searchBar{
+        padding-top: 50px;
+    }
+
     .searchBar input{
         font-size: 15px;
     }
@@ -196,10 +200,6 @@
 
     .data{
         padding-bottom: 40px;
-    }
-
-    .searchBar{
-        padding-top: 50px;
     }
 
     .searchBar input{
