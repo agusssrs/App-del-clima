@@ -198,6 +198,10 @@
         padding-bottom: 40px;
     }
 
+    .searchBar{
+        padding-top: 50px;
+    }
+
     .searchBar input{
         width: 250px;
     }
